@@ -1,0 +1,987 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"Shangri-La iOS Forensic Toolkit::Shangri-La iOS Forensic ToolkitPackageTests::ProductTarget" /* Shangri-La iOS Forensic ToolkitPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_58 /* Build configuration list for PBXAggregateTarget "Shangri-La iOS Forensic ToolkitPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_61 /* PBXTargetDependency */,
+			);
+			name = "Shangri-La iOS Forensic ToolkitPackageTests";
+			productName = "Shangri-La iOS Forensic ToolkitPackageTests";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_101 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Socket.swift */; };
+		OBJ_102 /* SocketProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* SocketProtocols.swift */; };
+		OBJ_103 /* SocketUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* SocketUtils.swift */; };
+		OBJ_110 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Package.swift */; };
+		OBJ_43 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
+		OBJ_45 /* Shout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Shout::Shout::Product" /* Shout.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		OBJ_46 /* Socket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Socket::Socket::Product" /* Socket.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		OBJ_56 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_67 /* Shangri_La_iOS_Forensic_ToolkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Shangri_La_iOS_Forensic_ToolkitTests.swift */; };
+		OBJ_68 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
+		OBJ_70 /* Shout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Shout::Shout::Product" /* Shout.framework */; };
+		OBJ_71 /* Socket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Socket::Socket::Product" /* Socket.framework */; };
+		OBJ_79 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Agent.swift */; };
+		OBJ_80 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Channel.swift */; };
+		OBJ_81 /* FilePermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* FilePermissions.swift */; };
+		OBJ_82 /* ReadWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* ReadWrite.swift */; };
+		OBJ_83 /* SFTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* SFTP.swift */; };
+		OBJ_84 /* SSH.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* SSH.swift */; };
+		OBJ_85 /* SSHAuthMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* SSHAuthMethod.swift */; };
+		OBJ_86 /* SSHError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* SSHError.swift */; };
+		OBJ_87 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Session.swift */; };
+		OBJ_89 /* Socket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Socket::Socket::Product" /* Socket.framework */; };
+		OBJ_96 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Package.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		462F7AAF22C9831E00753591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Shout::Shout";
+			remoteInfo = Shout;
+		};
+		462F7AB022C9831E00753591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Socket::Socket";
+			remoteInfo = Socket;
+		};
+		462F7AB122C9831E00753591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Socket::Socket";
+			remoteInfo = Socket;
+		};
+		462F7AB222C9831E00753591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Shangri-La iOS Forensic Toolkit::Shangri-La iOS Forensic Toolkit";
+			remoteInfo = "Shangri-La iOS Forensic Toolkit";
+		};
+		462F7AB322C9831E00753591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Shout::Shout";
+			remoteInfo = Shout;
+		};
+		462F7AB422C9831E00753591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Socket::Socket";
+			remoteInfo = Socket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		OBJ_12 /* Shangri_La_iOS_Forensic_ToolkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shangri_La_iOS_Forensic_ToolkitTests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_17 /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		OBJ_18 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		OBJ_19 /* FilePermissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePermissions.swift; sourceTree = "<group>"; };
+		OBJ_20 /* ReadWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadWrite.swift; sourceTree = "<group>"; };
+		OBJ_21 /* SFTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFTP.swift; sourceTree = "<group>"; };
+		OBJ_22 /* SSH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSH.swift; sourceTree = "<group>"; };
+		OBJ_23 /* SSHAuthMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSHAuthMethod.swift; sourceTree = "<group>"; };
+		OBJ_24 /* SSHError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSHError.swift; sourceTree = "<group>"; };
+		OBJ_25 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		OBJ_26 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/es/Documents/Shangri-La iOS Forensic Toolkit/Shangri-La iOS Forensic Toolkit/.build/checkouts/Shout/Package.swift"; sourceTree = "<group>"; };
+		OBJ_29 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		OBJ_30 /* SocketProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketProtocols.swift; sourceTree = "<group>"; };
+		OBJ_31 /* SocketUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketUtils.swift; sourceTree = "<group>"; };
+		OBJ_32 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/es/Documents/Shangri-La iOS Forensic Toolkit/Shangri-La iOS Forensic Toolkit/.build/checkouts/BlueSocket/Package.swift"; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		"Shangri-La iOS Forensic Toolkit::Shangri-La iOS Forensic Toolkit::Product" /* Shangri-La iOS Forensic Toolkit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Shangri-La iOS Forensic Toolkit"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Shangri-La iOS Forensic Toolkit::Shangri-La iOS Forensic ToolkitTests::Product" /* Shangri_La_iOS_Forensic_ToolkitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = Shangri_La_iOS_Forensic_ToolkitTests.xctest; path = "Shangri-La iOS Forensic ToolkitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Shout::Shout::Product" /* Shout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Shout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Socket::Socket::Product" /* Socket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Socket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_45 /* Shout.framework in Frameworks */,
+				OBJ_46 /* Socket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_70 /* Shout.framework in Frameworks */,
+				OBJ_71 /* Socket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_89 /* Socket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* Shangri-La iOS Forensic ToolkitTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* Shangri-La iOS Forensic ToolkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* Shangri_La_iOS_Forensic_ToolkitTests.swift */,
+				OBJ_13 /* XCTestManifests.swift */,
+			);
+			name = "Shangri-La iOS Forensic ToolkitTests";
+			path = "Tests/Shangri-La iOS Forensic ToolkitTests";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_15 /* Shout 0.5.0 */,
+				OBJ_27 /* Socket 0.12.94 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_15 /* Shout 0.5.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* Shout */,
+				OBJ_26 /* Package.swift */,
+			);
+			name = "Shout 0.5.0";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_16 /* Shout */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* Agent.swift */,
+				OBJ_18 /* Channel.swift */,
+				OBJ_19 /* FilePermissions.swift */,
+				OBJ_20 /* ReadWrite.swift */,
+				OBJ_21 /* SFTP.swift */,
+				OBJ_22 /* SSH.swift */,
+				OBJ_23 /* SSHAuthMethod.swift */,
+				OBJ_24 /* SSHError.swift */,
+				OBJ_25 /* Session.swift */,
+			);
+			name = Shout;
+			path = .build/checkouts/Shout/Sources/Shout;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_27 /* Socket 0.12.94 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_28 /* Socket */,
+				OBJ_32 /* Package.swift */,
+			);
+			name = "Socket 0.12.94";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_28 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_29 /* Socket.swift */,
+				OBJ_30 /* SocketProtocols.swift */,
+				OBJ_31 /* SocketUtils.swift */,
+			);
+			name = Socket;
+			path = .build/checkouts/BlueSocket/Sources/Socket;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Socket::Socket::Product" /* Socket.framework */,
+				"Shangri-La iOS Forensic Toolkit::Shangri-La iOS Forensic ToolkitTests::Product" /* Shangri_La_iOS_Forensic_ToolkitTests.xctest */,
+				"Shout::Shout::Product" /* Shout.framework */,
+				"Shangri-La iOS Forensic Toolkit::Shangri-La iOS Forensic Toolkit::Product" /* Shangri-La iOS Forensic Toolkit */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_14 /* Dependencies */,
+				OBJ_33 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Shangri-La iOS Forensic Toolkit */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* Shangri-La iOS Forensic Toolkit */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* main.swift */,
+			);
+			name = "Shangri-La iOS Forensic Toolkit";
+			path = "Sources/Shangri-La iOS Forensic Toolkit";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"Shangri-La iOS Forensic Toolkit::Shangri-La iOS Forensic Toolkit" /* Shangri-La iOS Forensic Toolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_39 /* Build configuration list for PBXNativeTarget "Shangri-La iOS Forensic Toolkit" */;
+			buildPhases = (
+				OBJ_42 /* Sources */,
+				OBJ_44 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_47 /* PBXTargetDependency */,
+				OBJ_49 /* PBXTargetDependency */,
+			);
+			name = "Shangri-La iOS Forensic Toolkit";
+			productName = Shangri_La_iOS_Forensic_Toolkit;
+			productReference = "Shangri-La iOS Forensic Toolkit::Shangri-La iOS Forensic Toolkit::Product" /* Shangri-La iOS Forensic Toolkit */;
+			productType = "com.apple.product-type.tool";
+		};
+		"Shangri-La iOS Forensic Toolkit::Shangri-La iOS Forensic ToolkitTests" /* Shangri-La iOS Forensic ToolkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_63 /* Build configuration list for PBXNativeTarget "Shangri-La iOS Forensic ToolkitTests" */;
+			buildPhases = (
+				OBJ_66 /* Sources */,
+				OBJ_69 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_72 /* PBXTargetDependency */,
+				OBJ_73 /* PBXTargetDependency */,
+				OBJ_74 /* PBXTargetDependency */,
+			);
+			name = "Shangri-La iOS Forensic ToolkitTests";
+			productName = Shangri_La_iOS_Forensic_ToolkitTests;
+			productReference = "Shangri-La iOS Forensic Toolkit::Shangri-La iOS Forensic ToolkitTests::Product" /* Shangri_La_iOS_Forensic_ToolkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"Shangri-La iOS Forensic Toolkit::SwiftPMPackageDescription" /* Shangri-La iOS Forensic ToolkitPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_52 /* Build configuration list for PBXNativeTarget "Shangri-La iOS Forensic ToolkitPackageDescription" */;
+			buildPhases = (
+				OBJ_55 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shangri-La iOS Forensic ToolkitPackageDescription";
+			productName = "Shangri-La iOS Forensic ToolkitPackageDescription";
+			productType = "com.apple.product-type.framework";
+		};
+		"Shout::Shout" /* Shout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_75 /* Build configuration list for PBXNativeTarget "Shout" */;
+			buildPhases = (
+				OBJ_78 /* Sources */,
+				OBJ_88 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_90 /* PBXTargetDependency */,
+			);
+			name = Shout;
+			productName = Shout;
+			productReference = "Shout::Shout::Product" /* Shout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Shout::SwiftPMPackageDescription" /* ShoutPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_92 /* Build configuration list for PBXNativeTarget "ShoutPackageDescription" */;
+			buildPhases = (
+				OBJ_95 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoutPackageDescription;
+			productName = ShoutPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"Socket::Socket" /* Socket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_97 /* Build configuration list for PBXNativeTarget "Socket" */;
+			buildPhases = (
+				OBJ_100 /* Sources */,
+				OBJ_104 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Socket;
+			productName = Socket;
+			productReference = "Socket::Socket::Product" /* Socket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Socket::SwiftPMPackageDescription" /* SocketPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_106 /* Build configuration list for PBXNativeTarget "SocketPackageDescription" */;
+			buildPhases = (
+				OBJ_109 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketPackageDescription;
+			productName = SocketPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Shangri-La iOS Forensic Toolkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"Shangri-La iOS Forensic Toolkit::Shangri-La iOS Forensic Toolkit" /* Shangri-La iOS Forensic Toolkit */,
+				"Shangri-La iOS Forensic Toolkit::SwiftPMPackageDescription" /* Shangri-La iOS Forensic ToolkitPackageDescription */,
+				"Shangri-La iOS Forensic Toolkit::Shangri-La iOS Forensic ToolkitPackageTests::ProductTarget" /* Shangri-La iOS Forensic ToolkitPackageTests */,
+				"Shangri-La iOS Forensic Toolkit::Shangri-La iOS Forensic ToolkitTests" /* Shangri-La iOS Forensic ToolkitTests */,
+				"Shout::Shout" /* Shout */,
+				"Shout::SwiftPMPackageDescription" /* ShoutPackageDescription */,
+				"Socket::Socket" /* Socket */,
+				"Socket::SwiftPMPackageDescription" /* SocketPackageDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_101 /* Socket.swift in Sources */,
+				OBJ_102 /* SocketProtocols.swift in Sources */,
+				OBJ_103 /* SocketUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_110 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_43 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_56 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_67 /* Shangri_La_iOS_Forensic_ToolkitTests.swift in Sources */,
+				OBJ_68 /* XCTestManifests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_79 /* Agent.swift in Sources */,
+				OBJ_80 /* Channel.swift in Sources */,
+				OBJ_81 /* FilePermissions.swift in Sources */,
+				OBJ_82 /* ReadWrite.swift in Sources */,
+				OBJ_83 /* SFTP.swift in Sources */,
+				OBJ_84 /* SSH.swift in Sources */,
+				OBJ_85 /* SSHAuthMethod.swift in Sources */,
+				OBJ_86 /* SSHError.swift in Sources */,
+				OBJ_87 /* Session.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_96 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Shout::Shout" /* Shout */;
+			targetProxy = 462F7AAF22C9831E00753591 /* PBXContainerItemProxy */;
+		};
+		OBJ_49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Socket::Socket" /* Socket */;
+			targetProxy = 462F7AB122C9831E00753591 /* PBXContainerItemProxy */;
+		};
+		OBJ_61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Shangri-La iOS Forensic Toolkit::Shangri-La iOS Forensic ToolkitTests" /* Shangri-La iOS Forensic ToolkitTests */;
+			targetProxy = "Shangri-La iOS Forensic Toolkit::Shangri-La iOS Forensic ToolkitTests" /* Shangri-La iOS Forensic ToolkitTests */;
+		};
+		OBJ_72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Shangri-La iOS Forensic Toolkit::Shangri-La iOS Forensic Toolkit" /* Shangri-La iOS Forensic Toolkit */;
+			targetProxy = 462F7AB222C9831E00753591 /* PBXContainerItemProxy */;
+		};
+		OBJ_73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Shout::Shout" /* Shout */;
+			targetProxy = 462F7AB322C9831E00753591 /* PBXContainerItemProxy */;
+		};
+		OBJ_74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Socket::Socket" /* Socket */;
+			targetProxy = 462F7AB422C9831E00753591 /* PBXContainerItemProxy */;
+		};
+		OBJ_90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Socket::Socket" /* Socket */;
+			targetProxy = 462F7AB022C9831E00753591 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CSSH",
+				);
+				INFOPLIST_FILE = "Shangri-La iOS Forensic Toolkit.xcodeproj/Shangri_La_iOS_Forensic_Toolkit_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/libssh2/1.8.2/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/libssh2/1.8.2/lib",
+					"-lssh2",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libssh2/1.8.2/include";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "Shangri-La iOS Forensic Toolkit";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CSSH",
+				);
+				INFOPLIST_FILE = "Shangri-La iOS Forensic Toolkit.xcodeproj/Shangri_La_iOS_Forensic_Toolkit_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/libssh2/1.8.2/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/libssh2/1.8.2/lib",
+					"-lssh2",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libssh2/1.8.2/include";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "Shangri-La iOS Forensic Toolkit";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CSSH",
+				);
+				INFOPLIST_FILE = "Shangri-La iOS Forensic Toolkit.xcodeproj/Shangri_La_iOS_Forensic_ToolkitTests_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/libssh2/1.8.2/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/libssh2/1.8.2/lib",
+					"-lssh2",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libssh2/1.8.2/include";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "Shangri-La iOS Forensic ToolkitTests";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CSSH",
+				);
+				INFOPLIST_FILE = "Shangri-La iOS Forensic Toolkit.xcodeproj/Shangri_La_iOS_Forensic_ToolkitTests_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/libssh2/1.8.2/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/libssh2/1.8.2/lib",
+					"-lssh2",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libssh2/1.8.2/include";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "Shangri-La iOS Forensic ToolkitTests";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CSSH",
+				);
+				INFOPLIST_FILE = "Shangri-La iOS Forensic Toolkit.xcodeproj/Shout_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/libssh2/1.8.2/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/libssh2/1.8.2/lib",
+					"-lssh2",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libssh2/1.8.2/include";
+				PRODUCT_BUNDLE_IDENTIFIER = Shout;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Shout;
+			};
+			name = Debug;
+		};
+		OBJ_77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CSSH",
+				);
+				INFOPLIST_FILE = "Shangri-La iOS Forensic Toolkit.xcodeproj/Shout_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/libssh2/1.8.2/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/libssh2/1.8.2/lib",
+					"-lssh2",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libssh2/1.8.2/include";
+				PRODUCT_BUNDLE_IDENTIFIER = Shout;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Shout;
+			};
+			name = Release;
+		};
+		OBJ_93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Shangri-La iOS Forensic Toolkit.xcodeproj/Socket_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Socket;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Socket;
+			};
+			name = Debug;
+		};
+		OBJ_99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Shangri-La iOS Forensic Toolkit.xcodeproj/Socket_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Socket;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Socket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_106 /* Build configuration list for PBXNativeTarget "SocketPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_107 /* Debug */,
+				OBJ_108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "Shangri-La iOS Forensic Toolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_39 /* Build configuration list for PBXNativeTarget "Shangri-La iOS Forensic Toolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_40 /* Debug */,
+				OBJ_41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_52 /* Build configuration list for PBXNativeTarget "Shangri-La iOS Forensic ToolkitPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_53 /* Debug */,
+				OBJ_54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_58 /* Build configuration list for PBXAggregateTarget "Shangri-La iOS Forensic ToolkitPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_59 /* Debug */,
+				OBJ_60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_63 /* Build configuration list for PBXNativeTarget "Shangri-La iOS Forensic ToolkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_64 /* Debug */,
+				OBJ_65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_75 /* Build configuration list for PBXNativeTarget "Shout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_76 /* Debug */,
+				OBJ_77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_92 /* Build configuration list for PBXNativeTarget "ShoutPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_93 /* Debug */,
+				OBJ_94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_97 /* Build configuration list for PBXNativeTarget "Socket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_98 /* Debug */,
+				OBJ_99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

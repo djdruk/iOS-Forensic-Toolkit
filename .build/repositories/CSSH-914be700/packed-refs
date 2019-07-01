@@ -1,0 +1,9 @@
+# pack-refs with: peeled fully-peeled sorted 
+579a20508ab598f78713a60fed95706efd06bbcb refs/heads/master
+f99ac766c65feadea36f902c4d794687c5cbac91 refs/tags/0.0.1
+452a0097b0ea0962b021cfe30dedf709c46d2a18 refs/tags/0.0.2
+11cb3b0efc4aa4df0cd8c74a078f226a8d3deec7 refs/tags/0.0.3
+a115d3ace3867598d22f5d9b587b9b94db38af5b refs/tags/1.0.0
+1190e7dd5fd1ff9b34c06c5c71894e0d89700ab8 refs/tags/1.0.1
+3b505f928f31456603d1e3f3a313f31e71abe05e refs/tags/1.0.2
+579a20508ab598f78713a60fed95706efd06bbcb refs/tags/1.0.3
