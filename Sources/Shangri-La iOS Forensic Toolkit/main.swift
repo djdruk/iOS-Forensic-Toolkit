@@ -359,7 +359,7 @@ sleep(1)
 while (true) {
     clear()
     print(" ")
-    print("-> Shangrila iOS Forensic Toolkit")
+    print("-> Shangri-La iOS Forensic Toolkit")
     print("-> Created by エス on 2019/7/1.")
     print("-> 0. Configure devices ")
     print("-> 1. Device info")
